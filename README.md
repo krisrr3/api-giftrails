@@ -6,7 +6,7 @@
 
 Giftrails is a concept which aims to improve developer experience in building APIs and provide a mechanism for better collaboration at the enterprise level, for teams owning cross-functional capabilities such as logging, authentication, authorisation, resilience, monitoring.
 
-This was presented at the API Days in Melbourne in Oct 2024
+The topic was presented at the API Days in Melbourne in Oct 2024
 
 <div align="center">
     <a href="https://www.youtube.com/watch?v=AM1jw1YmSGI">
@@ -15,7 +15,7 @@ This was presented at the API Days in Melbourne in Oct 2024
 </div>
 
 
-This helps with the day 1 to deliver PROD Ready APIs, but it also proposes to have a migration design from the start, such that when the new API framework or startegy is in place it does not take years for migration to complete.
+The outcome is to encourage delivery of compliant APIs, but it also proposes to have a migration design from the start, such that when the new API framework or startegy is in place it does not take years for migration to complete.
 
 This codebase is a skeleton template, to be used as is or customised. Not one enterprise is the same as another, so the folders/modules within the Giftrails codebase should be a reflection of the capabilities required to build an API in the Enterprise.
 
