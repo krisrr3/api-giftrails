@@ -24,7 +24,6 @@ Mock implementations enable:
 ## Usage
 
 Mocks can be used in:
-- Unit tests
 - Integration tests
 - Local development environments
 - CI/CD pipeline testing
