@@ -15,7 +15,16 @@ The topic was presented at the API Days in Melbourne in Oct 2024
 </div>
 
 
-The outcome is to encourage delivery of compliant APIs, but it also proposes to have a migration design from the start, such that when the new API framework or startegy is in place it does not take years for migration to complete.
+The outcome is to encourage delivery of compliant APIs. Don't just ask engineers to adhere to guardrails, but rather give them a toolkit which starts them on a high compliance base. Simple examples would be
+
+| Guardrails Requirement | Giftrails |
+|------------------------|-----------|
+| APIs must implement structured logging | Pre-configured logging framework with correlation IDs and standard log formats |
+| APIs must have authentication and authorization | Built-in security middleware with OAuth2/OIDC integration |
+| APIs must include health checks and metrics | Ready-to-use health check endpoints and monitoring instrumentation |
+| APIs must follow RESTful design principles | OpenAPI specification templates and standardized error handling |
+| APIs must implement rate limiting | Pre-configured rate limiting middleware with sensible defaults |
+| APIs must have resilience patterns | Circuit breakers, retry policies, and timeout configurations included |
 
 This codebase is just another enabler and a skeleton template, to be used as is or customised. Not one enterprise is the same as another, so the folders/modules within the Giftrails codebase should be a reflection of the capabilities required to build an API in the Enterprise.
 
@@ -39,11 +48,18 @@ Example for dotnet
 
 That ease will ensure they are more likely to follow the guardrails, and not by-pass them because of delivery pressure.
 
-# The Community
+# The Community Effect
 
-To make this successful, the most important aspect is the community that will 
-- contribute towards building the giftrails modules; e.g logging-toolkit, security toolkit, etc..
-- continuously improve based on dev and pro experiences; such as defects and incidents
+<div align="center">
+    <img src="docs/community_effect.png" alt="Effect of community on GiftRails health" width="400"/>
+</div>
+
+To make GiftRails successful, the most important aspect is the engagement of an engineering community that will 
+- find a sense of ownership to contribute to better engineering experience
+- inner source contribution towards building the giftrails modules; e.g logging-toolkit, security toolkit, CICD pipelines, etc..
+- continuously improve based on dev and prod experiences; such as defects and incidents
 - suggest features that will contribute to better experience, performance and security
+
+
 
 
